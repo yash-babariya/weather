@@ -3,31 +3,30 @@
 .header-container {
     .navbar {
         display: flex;
-        justify-content: flex-end; // Align menu to the right
-        background-color: #343a40; // Dark background color
+        justify-content: flex-end;
         padding: 1rem;
         position: relative;
 
         .menu-links {
             display: flex;
-            align-items: center; // Align menu links vertically
-            justify-content: flex-end; // Align menu links to the right
+            align-items: center;
+            justify-content: flex-end;
 
             ul {
                 list-style: none;
                 display: flex;
-                margin: 0; // Remove default margin
+                margin: 0;
 
                 li {
                     margin-left: 1rem;
 
                     a {
                         text-decoration: none;
-                        color: #fff; // White text color
+                        color: #fff;
                         transition: color 0.3s ease;
 
                         &:hover {
-                            color: #17a2b8; // Color on hover
+                            color: #17a2b8;
                         }
                     }
                 }
@@ -35,7 +34,7 @@
         }
 
         .menu-links ul {
-            flex-direction: row; // Ensure the menu links are displayed horizontally
+            flex-direction: row;
         }
     }
 }
