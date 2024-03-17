@@ -12,8 +12,8 @@ const Search = (props) => {
           <input type="text" className='form-input' name='city' placeholder='Enter City Name' onChange={props.change} value={props.city} />
           <input type="button" value="Search" className='form-button' onClick={props.citysearch} />
           <div className='location-button' onClick={props.location}>
-            <span className="material-symbols-outlined location-icon">my_location</span>
-            <span className='form-label'>Get coordinates</span>
+            <span className="material-symbols-outlined location-icon" onClick={props.location}>my_location</span>
+            <span className='form-label' onClick={props.location}>Get coordinates</span>
           </div>
           <label htmlFor="" className='form-label mt-4'>Lat:</label>
           <input type="text" className='form-input' name='lat' placeholder='Enter latitude' onChange={props.change} value={props.lat} />
